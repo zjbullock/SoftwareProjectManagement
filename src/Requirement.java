@@ -9,7 +9,7 @@
 //a boolean to determine whether the requirement is functional or non-functional
 //(with it being TRUE and FALSE respectively), name of the requirement,
 //description of the requirement, and time estimates for Requirements Analysis,
-//Design, Codeing, Testing, and overall Project Management.
+//Design, Coding, Testing, and overall Project Management.
 public class Requirement {
     //Declaring the different variables described above.
     private boolean functional;
