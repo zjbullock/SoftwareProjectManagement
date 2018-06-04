@@ -46,7 +46,7 @@ public class SoftwareProject {
 
     double getTTime() { return TTime; }
 
-    public double getPMTime() { return PMTime; }
+    double getPMTime() { return PMTime; }
 
 
     //GENERIC MUTATORS FOR THE SOFTWAREPROJECT CLASS:
@@ -70,7 +70,7 @@ public class SoftwareProject {
 
     void addCTime(double time) { CTime += time; }
 
-    void addTTime(double time) { DTime += time; }
+    void addTTime(double time) { TTime += time; }
 
     void addPMTime(double time) { PMTime += time; }
 

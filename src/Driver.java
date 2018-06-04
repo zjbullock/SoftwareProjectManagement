@@ -132,7 +132,7 @@ public class Driver
     System.out.println("Design: " + currentProject.getDTime());
     System.out.println("Coding: " + currentProject.getCTime());
     System.out.println("Testing: " + currentProject.getTTime());
-    System.out.println("Project Management: " + currentProject.getTTime());
+    System.out.println("Project Management: " + currentProject.getPMTime());
     System.out.println("\n=========================================");
 
   }
