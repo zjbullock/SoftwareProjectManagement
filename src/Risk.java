@@ -1,7 +1,8 @@
-//Class name:  SoftwareProject
-//Written by:  Zikomo S. Bullock
-//Purpose:  Final project in Software Project Management (4663), taught by Dr. Hassan Purnaghsband at Kennesaw State University
-//The purpose of this class is to hold all values pertaining to the Risks of the software project.  Each Risk will have a description and status.
+/*Class name:  SoftwareProject
+Written by:  Zikomo S. Bullock
+Purpose:  Final project in Software Project Management (4663), taught by Dr. Hassan Purnaghsband at Kennesaw State University
+The purpose of this class is to hold all values pertaining to the Risks of the software project.  Each Risk will have a description and status.*/
+
 public class Risk {
     //DEFAULT CONSTRUCTOR OF THE RISK CLASS:
      Risk(){

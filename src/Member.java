@@ -1,7 +1,7 @@
-//Class name:  Member
-//Written by:  Zikomo S. Bullock
-//Purpose:  Final project in Software Project Management (4663), taught by Dr. Hassan Purnaghsband at Kennesaw State University
-//The purpose of this class is to hold all values pertaining to team members of Software Projects.
+/*Class name:  Member
+Written by:  Zikomo S. Bullock
+Purpose:  Final project in Software Project Management (4663), taught by Dr. Hassan Purnaghsband at Kennesaw State University
+The purpose of this class is to hold all values pertaining to team members of Software Projects.*/
 import java.util.ArrayList;
 
 public class Member {

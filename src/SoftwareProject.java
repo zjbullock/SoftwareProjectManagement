@@ -1,9 +1,9 @@
-//Class name:  SoftwareProject
-//Written by:  Zikomo S. Bullock
-//Purpose:  Final project in Software Project Management (4663), taught by Dr. Hassan Purnaghsband at Kennesaw State University
-//The purpose of this class is to hold all values pertaining to software projects.  Specifically, each software project shall hold a description,
-//an owner or project manager, and team members for the project.  Each software project shall hold a list of risks associated with it, and a list of both functional
-//and non-functional requirements.  The number of team members working on the project will also be recorded with each Software Project.
+/*Class name:  SoftwareProject
+Written by:  Zikomo S. Bullock
+Purpose:  Final project in Software Project Management (4663), taught by Dr. Hassan Purnaghsband at Kennesaw State University
+The purpose of this class is to hold all values pertaining to software projects.  Specifically, each software project shall hold a description,
+an owner or project manager, and team members for the project.  Each software project shall hold a list of risks associated with it, and a list of both functional
+and non-functional requirements.  The number of team members working on the project will also be recorded with each Software Project.*/
 import java.util.ArrayList;
 
 
@@ -76,8 +76,9 @@ public class SoftwareProject {
 
 
     //MODIFICATION MEMBER FUNCTIONS FOR THE SOFTWAREPROJECT CLASS:
-    //precondition: getiMemberCount is not 0;
-    //postcondition:  Team member is added to the project
+
+    /*precondition: getiMemberCount is not 0;
+      postcondition:  Team member is added to the project*/
     void addTeamMember(String member){
         if(getiMemberCount()<1000){
             teamMembers[getiMemberCount()]=member;
@@ -112,10 +113,10 @@ public class SoftwareProject {
     private ArrayList<Requirement> alFR = new ArrayList<>();                    //ArrayList of Functional Requirements
     private ArrayList<Requirement> alNFR = new ArrayList<>();                   //ArrayList of Non-Functional Requirements
 
-    private double RATime = 0;
-    private double DTime = 0;
-    private double CTime = 0;
-    private double TTime = 0;
-    private double PMTime = 0;
+    private double RATime = 0;  //Risk Analysis Time
+    private double DTime = 0;   //Design Time
+    private double CTime = 0;   //Coding Time
+    private double TTime = 0;   //Testing Time
+    private double PMTime = 0;  //Project Management Time
 
 }
